@@ -7,6 +7,8 @@ __pycache__/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+outputs/
+*.csv
 
 # Data files (we will discuss later whether to push raw data)
 data/raw/
