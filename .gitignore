@@ -16,7 +16,7 @@ __pycache__/
 *.ipynb_checkpoints
 
 # Outputs and results (large files / generated)
-outputs/
+
 *.csv
 *.json
 *.pkl
