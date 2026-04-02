@@ -1,0 +1,16 @@
+=== ML Assignment Submission ===
+
+Dataset Link:
+https://www.kaggle.com/datasets/laotse/credit-risk-dataset
+(Real-world Credit Risk Dataset used for Loan Default Prediction)
+
+GitHub Repository Link:
+https://github.com/coonghe03/Loan-Default-Prediction-System.git
+(Contains all notebooks, src folder, outputs, and detailed commit history)
+
+YouTube Presentation Video Link:
+https://youtu.be/[Your-Video-ID]
+
+Project Title: Loan Default Prediction System using Machine Learning
+Team Size: 4
+Algorithms Used: Logistic Regression, Decision Tree, Random Forest, SVM

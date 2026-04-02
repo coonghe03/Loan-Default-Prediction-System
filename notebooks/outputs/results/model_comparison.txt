@@ -1,0 +1,8 @@
+Model Comparison Table
+=====================
+
+              Model  Accuracy  Precision  Recall  F1 Score
+Logistic Regression    0.8273     0.7139  0.3844    0.4997
+      Decision Tree    0.9135     0.8912  0.8267    0.8574
+      Random Forest    0.8768     0.7720  0.6304    0.6941
+                SVM    0.9136     0.9274  0.6554    0.7680
