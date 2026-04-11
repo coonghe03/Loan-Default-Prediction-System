@@ -60,3 +60,5 @@ report/*.docx
 .fseventsd/
 .Spotlight-V100/
 .Trashes/
+
+outputs/
