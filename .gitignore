@@ -1,30 +1,64 @@
 # Virtual Environment
 venv/
+.venv/
+env/
+ENV/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.so
 
-# Jupyter Notebook checkpoints
+# Jupyter Notebook
 .ipynb_checkpoints/
-outputs/
-*.csv
+*.ipynb_checkpoints
 
-# Data files (we will discuss later whether to push raw data)
-data/raw/
+# Outputs and results (large files / generated)
+
 *.csv
-*.zip
+*.json
+*.pkl
+*.joblib
+
+# Data directory (only ignore raw or large files)
+data/raw/
+data/*.zip
+
+# Keep preprocessed data if small, but ignore very large CSVs if needed
+# data/preprocessed_credit_risk.csv   # Uncomment if you don't want to push it
 
 # Logs and temporary files
 *.log
+*.tmp
+
+# OS generated files
 .DS_Store
 Thumbs.db
+ehthumbs.db
 
 # Environment variables
 .env
 
-# IDE files
+# IDE / Editor files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-models/random_forest_model.pkl
+# Model files (optional - you can keep small models)
+# models/
+*.pkl
+*.joblib
+
+# Report output
+report/*.pdf
+report/*.docx
+
+# Mac & Windows specific
+.fseventsd/
+.Spotlight-V100/
+.Trashes/
+
+outputs/
